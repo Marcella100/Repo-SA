@@ -1,0 +1,91 @@
+body {
+    background: rgb(224, 118, 118);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin: o auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(197, 196, 196);
+    padding: 55px;
+    border-radius: 12px;
+
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+
+}
+
+.topo input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid cadetblue;
+    outline: none;
+    font-size: 1rem;
+    background: rgb(255, 255, 255);
+
+}
+
+.topo input:hover {
+    background: cadetblue;
+   
+}
+
+.topo button {
+    width: 45px;
+    border-radius: 12px;
+    border: 1px solid cadetblue;
+    background: rgb(255, 255, 255);
+   outline: none; 
+
+}
+
+.topo button:hover {
+    background: cadetblue;
+    cursor: pointer;
+}
+
+#listaCompras {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaCompras li {
+    padding: 20px;
+    background: cadetblue;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.botaoIcone {
+    border-radius: 20px;
+    border: 1px solid cadetblue;
+    width: 38px;
+    height: 38px;
+    margin-right: 8px;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    color: rgb(20, 0, 0);
+}
+
+.botaoIcone:hover {
+    background: rgb(72, 124, 126);
+}
